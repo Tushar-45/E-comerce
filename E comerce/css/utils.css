@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-all-center{
+    font-family: 'Itim', cursive;
+    text-align: center;
+    background: #000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 4px 7px;
+    font-family: 'Itim', cursive;
+    border-radius: 6px;
+    margin-left: 10px;
+    color: #ffeb3b;
+    background: #000000;
+    border: 2px solid gold;
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
